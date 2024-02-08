@@ -45,10 +45,6 @@ jobs:
       uses: docker/metadata-action@v5
       with:
         images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-        
-    - name: Build the Docker image
-      working-directory: java-deps
-      run: docker build . --file Dockerfile --tag zm-java-deps:$(date +%s)
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v5
