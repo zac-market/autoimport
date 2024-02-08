@@ -51,10 +51,9 @@ jobs:
       run: docker build . --file Dockerfile --tag zm-java-deps:$(date +%s)
 
     - name: Build and push Docker image
-      working-directory: java-deps
       uses: docker/build-push-action@v5
       with:
-        context: .
+        context: java-deps
         push: ${{ github.event_name != 'pull_request' }}
         tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }} # ${{ steps.meta.outputs.tags }}
         # tags: ghcr.io/houssemdellai/github-actions-course:${{ env.IMAGE_TAG }} # ${{ steps.meta.outputs.tags }}
