@@ -4,4 +4,4 @@ WORKDIR /usr/src/mymaven
 
 COPY . ./
 
-RUN mvn clean install
+RUN mvn clean package
