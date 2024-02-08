@@ -51,6 +51,7 @@ jobs:
       run: docker build . --file Dockerfile --tag zm-java-deps:$(date +%s)
 
     - name: Build and push Docker image
+      working-directory: java-deps
       uses: docker/build-push-action@v5
       with:
         context: .
