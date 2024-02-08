@@ -1,1 +1,1 @@
-### Acquires dependencies
+This project acquires dependencies
