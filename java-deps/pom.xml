@@ -38,120 +38,86 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-commons-dependencies</artifactId>
             <version>${spring-cloud-commons.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-netflix-dependencies</artifactId>
             <version>${spring-cloud-netflix.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-stream-dependencies</artifactId>
             <version>${spring-cloud-stream.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-task-dependencies</artifactId>
             <version>${spring-cloud-task.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-circuitbreaker-dependencies</artifactId>
             <version>${spring-cloud-circuitbreaker.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-dependencies</artifactId>
             <version>${spring-cloud-config.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-function-dependencies</artifactId>
             <version>${spring-cloud-function.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-gateway-dependencies</artifactId>
             <version>${spring-cloud-gateway.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-consul-dependencies</artifactId>
             <version>${spring-cloud-consul.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-sleuth-dependencies</artifactId>
             <version>${spring-cloud-sleuth.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-vault-dependencies</artifactId>
             <version>${spring-cloud-vault.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-zookeeper-dependencies</artifactId>
             <version>${spring-cloud-zookeeper.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-cloudfoundry-dependencies</artifactId>
             <version>${spring-cloud-cloudfoundry.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-bus-dependencies</artifactId>
             <version>${spring-cloud-bus.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-contract-dependencies</artifactId>
             <version>${spring-cloud-contract.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-openfeign-dependencies</artifactId>
             <version>${spring-cloud-openfeign.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-kubernetes-dependencies</artifactId>
             <version>${spring-cloud-kubernetes.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
     </dependencies>
 
