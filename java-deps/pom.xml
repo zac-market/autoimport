@@ -34,62 +34,16 @@
     </dependencyManagement>
 	
     <dependencies>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-commons</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-config-client</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-context</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-gateway-server</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-loadbalancer</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-netflix-eureka-client</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-openfeign-core</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-starter</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-starter-bootstrap</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-starter-config</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-starter-gateway</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-starter-loadbalancer</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-starter-openfeign</artifactId>
-    	</dependency>
+        <dependency>
+            <groupId>com.atlassian.bamboo</groupId>
+            <artifactId>bamboo-specs-api</artifactId>
+            <version>9.6.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.bamboo</groupId>
+            <artifactId>bamboo-specs</artifactId>
+            <version>9.6.4</version>
+        </dependency>
     </dependencies>
 
 </project>
