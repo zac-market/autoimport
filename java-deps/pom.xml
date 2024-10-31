@@ -25,16 +25,24 @@
 	
     <dependencies>
 		<dependency>
-		    <groupId>org.instancio</groupId>
-		    <artifactId>instancio-junit</artifactId>
-		    <version>5.0.2</version>
-		    <scope>test</scope>
+		    <groupId>org.elasticsearch.gradle</groupId>
+		    <artifactId>build-tools</artifactId>
+		    <version>8.13.2</version>
 		</dependency>
 		<dependency>
-		    <groupId>org.instancio</groupId>
-		    <artifactId>instancio-core</artifactId>
-		    <version>5.0.2</version>
-		    <scope>test</scope>
+		    <groupId>org.elasticsearch.plugin</groupId>
+		    <artifactId>x-pack-core</artifactId>
+		    <version>8.13.2</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.elasticsearch</groupId>
+		    <artifactId>elasticsearch</artifactId>
+		    <version>8.13.2</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.elasticsearch.test</groupId>
+		    <artifactId>framework</artifactId>
+		    <version>8.13.2</version>
 		</dependency>
     </dependencies>
 
