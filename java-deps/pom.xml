@@ -24,11 +24,11 @@
     </dependencyManagement>
 	
     <dependencies>
-		<dependency>
-		    <groupId>org.elasticsearch.plugin</groupId>
-		    <artifactId>x-pack-security</artifactId>
-		    <version>8.13.2</version>
-		</dependency>
+	<dependency>
+	    <groupId>org.elasticsearch.plugin</groupId>
+	    <artifactId>x-pack-security</artifactId>
+	    <version>8.13.2</version>
+	</dependency>
     </dependencies>
 
 </project>
