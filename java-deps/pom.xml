@@ -25,23 +25,8 @@
 	
     <dependencies>
 		<dependency>
-		    <groupId>org.elasticsearch.gradle</groupId>
-		    <artifactId>build-tools</artifactId>
-		    <version>8.13.2</version>
-		</dependency>
-		<dependency>
 		    <groupId>org.elasticsearch.plugin</groupId>
-		    <artifactId>x-pack-core</artifactId>
-		    <version>8.13.2</version>
-		</dependency>
-		<dependency>
-		    <groupId>org.elasticsearch</groupId>
-		    <artifactId>elasticsearch</artifactId>
-		    <version>8.13.2</version>
-		</dependency>
-		<dependency>
-		    <groupId>org.elasticsearch.test</groupId>
-		    <artifactId>framework</artifactId>
+		    <artifactId>x-pack-security</artifactId>
 		    <version>8.13.2</version>
 		</dependency>
     </dependencies>
