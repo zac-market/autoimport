@@ -10,6 +10,57 @@
     <packaging>jar</packaging>
     <description>Gets build deps</description>
 
+	<repositories>
+		<repository>
+		    <id>shibboleth-releases</id>
+		    <name>Shibboleth Releases Repository</name>
+		    <url>https://build.shibboleth.net/maven/releases/</url>
+		    <releases>
+			<enabled>true</enabled>
+			<checksumPolicy>warn</checksumPolicy>
+		    </releases>
+		    <snapshots>
+			<enabled>false</enabled>
+		    </snapshots>
+		</repository>
+		<repository>
+		    <id>shibboleth-snapshots</id>
+		    <name>Shibboleth Snapshots Repository</name>
+		    <url>https://build.shibboleth.net/maven/snapshots/</url>
+		    <releases>
+			<enabled>false</enabled>
+		    </releases>
+		    <snapshots>
+			<enabled>true</enabled>
+			<checksumPolicy>fail</checksumPolicy>
+		    </snapshots>
+		</repository>
+		<repository>
+		    <id>shibboleth-thirdparty</id>
+		    <name>Shibboleth Thirdparty Repository</name>
+		    <url>https://build.shibboleth.net/maven/thirdparty/</url>
+		    <releases>
+			<enabled>true</enabled>
+			<checksumPolicy>fail</checksumPolicy>
+		    </releases>
+		    <snapshots>
+			<enabled>false</enabled>
+		    </snapshots>
+		</repository>
+		<repository>
+		    <id>shibboleth-thirdparty-snapshots</id>
+		    <name>Shibboleth Thirdparty Snapshots Repository</name>
+		    <url>https://build.shibboleth.net/maven/thirdparty-snapshots/</url>
+		    <releases>
+			<enabled>false</enabled>
+		    </releases>
+		    <snapshots>
+			<enabled>true</enabled>
+			<checksumPolicy>warn</checksumPolicy>
+		    </snapshots>
+		</repository>
+	</repositories>
+
     <parent>
 	    <groupId>org.springframework.boot</groupId>
 	    <artifactId>spring-boot-starter-parent</artifactId>
